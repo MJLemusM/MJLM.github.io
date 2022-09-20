@@ -41,8 +41,8 @@ a {
 .container {
 	margin: auto;
 	max-width: 1300px;
-	overflow: auto;
-	padding: 0 20px;
+	
+	
 }
 
 .large {
