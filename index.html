@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- Link para font        -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <title>MJLemus | Welcome</title>
+	</head>
+	<body>
+		<header id="mainheader">
+            <nav class="navbar navbar-expand-lg  ">
+                <div class="container-fluid">
+                    <h2 class="logo"><a href="#mainheader">Mi Portfolio</a></h2>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#mainheader">Home</a>
+                      <a class="nav-link" href="#portfolio">Portfolio</a>
+                      <a class="nav-link" href="#about">¿Quien soy?</a>
+                      <a class="nav-link" href="#contact">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+			<div id="showcase">
+				<div class="container">
+					<div class="showcase-row">
+						<div class="showcase-row-title">
+							<p>Agronomo, Analista, Creativo</p>
+							<h1 class="display-1">
+								Ing Agronomo<br /><span class="txt-orange">Business Intelligence</span>
+							</h1>
+							<p class="large">
+                            El segundo rubro más importante, la Agricultura y siempre ronda la pregunta ¿Cuánto es mi margen?, 
+                            con tu informacion la podemos contestar y tomar decisiones.
+							</p>
+							<a href="#portfolio" class="btn btn-round btn-dark"
+								>Mi Portfolio</a>
+						</div>
+                        <div class="card border-light mb-1" style="width: 50rem;" >
+                            <img src="./assets/img/showcase.jpg" class="card-img" alt="Fotografia Cara MJLM">
+                        </div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="portfolio">
+			<div class="container">
+				<h2>Mi Portfolio</h2>
+				<h4>
+                    Extraer, Transformar y Carga (ETL)
+                </h4>
+                <h4>
+                    Visualización practica y limpia de la información
+                </h4>
+			<!--seccion de contenido-->
+
+            <section class="cupones-container"></section>
+            <div class="row my-2 g-4">
+        
+                <!--contenido 1-->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <img src="./assets/img/portfolio-1.jpg" class="card-img-top" alt="Dasboard">
+                        <div class="card-body">
+                            <h4 class="card-title1">Power BI</h4>
+                            <h5 class="card-text m-0">Modelado de informacion en Power BI</h5>            
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+                <!--contenido 2-->
+                <div class="col-12 col-md-6">
+                    <div class="card">
+                        <img src="./assets/img/portafolio-2.png" class="card-img" alt="Skill">
+                        <div class="card-body">
+                            <h4 class="card-title1">Habilidades</h4>
+                            <h5 class="card-text m-0">Introducción a HTML, CSS, Python</h5>          
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="container">
+				<h2>¿Quien soy?</h2>
+				<p>
+					Consciente, Comprometido y Responsable, adquiriendo habilidades día a día.
+				</p>
+                <p>
+                    Luego de graduarme ingrese al rubro frutícola, estableciéndome en la sexta región. 
+                    En este lugar me di cuenta la poca o falta de informacion para la toma de decisiones, por lo que uní mis habilidades computacionales con el rubro.
+                </p>
+		
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container">
+				<h2>Contacto</h2>
+                <p>
+                
+                </p>
+				<div class="contact-row">
+					<div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre Apellido">
+                      </div>
+					<div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="mainfooter">
+			<div class="container">
+				<a
+					href="http://www.linkedin.com/in/mjlemus"
+					class="twitter-follow-button"
+					data-show-count="false"
+					>Linkedin@Mjlemus</a
+				>
+				
+			</div>
+		</footer>
+	</body>
+</html>
